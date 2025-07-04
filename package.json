@@ -1,0 +1,22 @@
+{
+  "name": "png2icon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server",
+    "build": "browserify app.js -o bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "png-to-ico": "^2.1.8"
+  },
+  "devDependencies": {
+    "browserify": "^17.0.1",
+    "http-server": "^14.1.1"
+  }
+}
